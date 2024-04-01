@@ -1,4 +1,4 @@
-/* Exercicio de Pilha-Estacionamento
+/* Exercicio de Pilha-Estacionamento 
  * Prof. Me. Orlando Saraiva Jr
  * Matéria: Estrutura de Dados
  * Aluno: Carlos Armindo Degasperi
@@ -77,7 +77,7 @@ void ESTACIONAR(pilha* e, carro carro_entrada) {
 }
 /* 4) Funcao Sair (Atribuir placa "XXX-000" e ano 0 */
 carro SAIR(pilha* e) {
-    carro carro_saida = e->data[--e->size];
+    carro carro_saida = e->data[--e->size]; 
     e->data[e->size] = {"XXX-0000", 0};
     return carro_saida;
 }
